@@ -1,0 +1,20 @@
+{
+  "name": "skill-final-gate-audit",
+  "versions": {
+    "0.1.0": {
+      "name": "skill-final-gate-audit",
+      "type": "ocx:skill",
+      "description": "Local export for skills/final-gate-audit/SKILL.md",
+      "files": [
+        {
+          "path": "skills/final-gate-audit/SKILL.md",
+          "target": ".opencode/skills/final-gate-audit/SKILL.md"
+        }
+      ],
+      "dependencies": []
+    }
+  },
+  "dist-tags": {
+    "latest": "0.1.0"
+  }
+}

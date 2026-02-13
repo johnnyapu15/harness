@@ -1,0 +1,20 @@
+{
+  "name": "agent-reviewer-devil",
+  "versions": {
+    "0.1.0": {
+      "name": "agent-reviewer-devil",
+      "type": "ocx:agent",
+      "description": "Local export for agents/reviewer-devil.md",
+      "files": [
+        {
+          "path": "agents/reviewer-devil.md",
+          "target": ".opencode/agent/reviewer-devil.md"
+        }
+      ],
+      "dependencies": []
+    }
+  },
+  "dist-tags": {
+    "latest": "0.1.0"
+  }
+}

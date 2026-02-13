@@ -1,0 +1,20 @@
+{
+  "name": "agent-testor",
+  "versions": {
+    "0.1.0": {
+      "name": "agent-testor",
+      "type": "ocx:agent",
+      "description": "Local export for agents/testor.md",
+      "files": [
+        {
+          "path": "agents/testor.md",
+          "target": ".opencode/agent/testor.md"
+        }
+      ],
+      "dependencies": []
+    }
+  },
+  "dist-tags": {
+    "latest": "0.1.0"
+  }
+}

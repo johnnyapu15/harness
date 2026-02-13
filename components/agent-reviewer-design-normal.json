@@ -1,0 +1,20 @@
+{
+  "name": "agent-reviewer-design-normal",
+  "versions": {
+    "0.1.0": {
+      "name": "agent-reviewer-design-normal",
+      "type": "ocx:agent",
+      "description": "Local export for agents/reviewer-design-normal.md",
+      "files": [
+        {
+          "path": "agents/reviewer-design-normal.md",
+          "target": ".opencode/agent/reviewer-design-normal.md"
+        }
+      ],
+      "dependencies": []
+    }
+  },
+  "dist-tags": {
+    "latest": "0.1.0"
+  }
+}

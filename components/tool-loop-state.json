@@ -1,0 +1,20 @@
+{
+  "name": "tool-loop-state",
+  "versions": {
+    "0.1.0": {
+      "name": "tool-loop-state",
+      "type": "ocx:tool",
+      "description": "Local export for tools/loop-state.ts",
+      "files": [
+        {
+          "path": "tools/loop-state.ts",
+          "target": ".opencode/tool/loop-state.ts"
+        }
+      ],
+      "dependencies": []
+    }
+  },
+  "dist-tags": {
+    "latest": "0.1.0"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "skill-review-merge-rules",
+  "versions": {
+    "0.1.0": {
+      "name": "skill-review-merge-rules",
+      "type": "ocx:skill",
+      "description": "Local export for skills/review-merge-rules/SKILL.md",
+      "files": [
+        {
+          "path": "skills/review-merge-rules/SKILL.md",
+          "target": ".opencode/skills/review-merge-rules/SKILL.md"
+        }
+      ],
+      "dependencies": []
+    }
+  },
+  "dist-tags": {
+    "latest": "0.1.0"
+  }
+}

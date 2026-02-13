@@ -1,0 +1,20 @@
+{
+  "name": "skill-session-analysis",
+  "versions": {
+    "0.1.0": {
+      "name": "skill-session-analysis",
+      "type": "ocx:skill",
+      "description": "Local export for skills/session-analysis/SKILL.md",
+      "files": [
+        {
+          "path": "skills/session-analysis/SKILL.md",
+          "target": ".opencode/skills/session-analysis/SKILL.md"
+        }
+      ],
+      "dependencies": []
+    }
+  },
+  "dist-tags": {
+    "latest": "0.1.0"
+  }
+}

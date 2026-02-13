@@ -1,0 +1,20 @@
+{
+  "name": "plugin-slack-webhook",
+  "versions": {
+    "0.1.0": {
+      "name": "plugin-slack-webhook",
+      "type": "ocx:plugin",
+      "description": "Local export for plugin/slack-webhook.js",
+      "files": [
+        {
+          "path": "plugin/slack-webhook.js",
+          "target": ".opencode/plugin/slack-webhook.js"
+        }
+      ],
+      "dependencies": []
+    }
+  },
+  "dist-tags": {
+    "latest": "0.1.0"
+  }
+}

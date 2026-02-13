@@ -1,0 +1,20 @@
+{
+  "name": "command-coolify-verify",
+  "versions": {
+    "0.1.0": {
+      "name": "command-coolify-verify",
+      "type": "ocx:command",
+      "description": "Local export for command/coolify-verify.md",
+      "files": [
+        {
+          "path": "command/coolify-verify.md",
+          "target": ".opencode/command/coolify-verify.md"
+        }
+      ],
+      "dependencies": []
+    }
+  },
+  "dist-tags": {
+    "latest": "0.1.0"
+  }
+}

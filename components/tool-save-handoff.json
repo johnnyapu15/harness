@@ -1,0 +1,20 @@
+{
+  "name": "tool-save-handoff",
+  "versions": {
+    "0.1.0": {
+      "name": "tool-save-handoff",
+      "type": "ocx:tool",
+      "description": "Local export for tools/save-handoff.ts",
+      "files": [
+        {
+          "path": "tools/save-handoff.ts",
+          "target": ".opencode/tool/save-handoff.ts"
+        }
+      ],
+      "dependencies": []
+    }
+  },
+  "dist-tags": {
+    "latest": "0.1.0"
+  }
+}

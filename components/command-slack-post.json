@@ -1,0 +1,20 @@
+{
+  "name": "command-slack-post",
+  "versions": {
+    "0.1.0": {
+      "name": "command-slack-post",
+      "type": "ocx:command",
+      "description": "Local export for command/slack-post.md",
+      "files": [
+        {
+          "path": "command/slack-post.md",
+          "target": ".opencode/command/slack-post.md"
+        }
+      ],
+      "dependencies": []
+    }
+  },
+  "dist-tags": {
+    "latest": "0.1.0"
+  }
+}

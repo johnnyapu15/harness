@@ -1,0 +1,20 @@
+{
+  "name": "agent-researcher",
+  "versions": {
+    "0.1.0": {
+      "name": "agent-researcher",
+      "type": "ocx:agent",
+      "description": "Local export for agents/researcher.md",
+      "files": [
+        {
+          "path": "agents/researcher.md",
+          "target": ".opencode/agent/researcher.md"
+        }
+      ],
+      "dependencies": []
+    }
+  },
+  "dist-tags": {
+    "latest": "0.1.0"
+  }
+}

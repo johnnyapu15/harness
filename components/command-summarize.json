@@ -1,0 +1,20 @@
+{
+  "name": "command-summarize",
+  "versions": {
+    "0.1.0": {
+      "name": "command-summarize",
+      "type": "ocx:command",
+      "description": "Local export for commands/summarize.md",
+      "files": [
+        {
+          "path": "commands/summarize.md",
+          "target": ".opencode/command/summarize.md"
+        }
+      ],
+      "dependencies": []
+    }
+  },
+  "dist-tags": {
+    "latest": "0.1.0"
+  }
+}

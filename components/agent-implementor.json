@@ -1,0 +1,20 @@
+{
+  "name": "agent-implementor",
+  "versions": {
+    "0.1.0": {
+      "name": "agent-implementor",
+      "type": "ocx:agent",
+      "description": "Local export for agents/implementor.md",
+      "files": [
+        {
+          "path": "agents/implementor.md",
+          "target": ".opencode/agent/implementor.md"
+        }
+      ],
+      "dependencies": []
+    }
+  },
+  "dist-tags": {
+    "latest": "0.1.0"
+  }
+}

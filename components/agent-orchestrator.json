@@ -1,0 +1,20 @@
+{
+  "name": "agent-orchestrator",
+  "versions": {
+    "0.1.0": {
+      "name": "agent-orchestrator",
+      "type": "ocx:agent",
+      "description": "Local export for agents/orchestrator.md",
+      "files": [
+        {
+          "path": "agents/orchestrator.md",
+          "target": ".opencode/agent/orchestrator.md"
+        }
+      ],
+      "dependencies": []
+    }
+  },
+  "dist-tags": {
+    "latest": "0.1.0"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "skill-handoff-format",
+  "versions": {
+    "0.1.0": {
+      "name": "skill-handoff-format",
+      "type": "ocx:skill",
+      "description": "Local export for skills/handoff-format/SKILL.md",
+      "files": [
+        {
+          "path": "skills/handoff-format/SKILL.md",
+          "target": ".opencode/skills/handoff-format/SKILL.md"
+        }
+      ],
+      "dependencies": []
+    }
+  },
+  "dist-tags": {
+    "latest": "0.1.0"
+  }
+}

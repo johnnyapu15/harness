@@ -1,0 +1,20 @@
+{
+  "name": "skill-history-log",
+  "versions": {
+    "0.1.0": {
+      "name": "skill-history-log",
+      "type": "ocx:skill",
+      "description": "Local export for skills/history-log/SKILL.md",
+      "files": [
+        {
+          "path": "skills/history-log/SKILL.md",
+          "target": ".opencode/skills/history-log/SKILL.md"
+        }
+      ],
+      "dependencies": []
+    }
+  },
+  "dist-tags": {
+    "latest": "0.1.0"
+  }
+}

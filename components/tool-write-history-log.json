@@ -1,0 +1,20 @@
+{
+  "name": "tool-write-history-log",
+  "versions": {
+    "0.1.0": {
+      "name": "tool-write-history-log",
+      "type": "ocx:tool",
+      "description": "Local export for tools/write-history-log.ts",
+      "files": [
+        {
+          "path": "tools/write-history-log.ts",
+          "target": ".opencode/tool/write-history-log.ts"
+        }
+      ],
+      "dependencies": []
+    }
+  },
+  "dist-tags": {
+    "latest": "0.1.0"
+  }
+}

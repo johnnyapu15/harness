@@ -1,0 +1,133 @@
+{
+  "name": "OpenCode Local Registry Export",
+  "namespace": "kdcokenny-opencode",
+  "version": "0.1.0",
+  "author": "local",
+  "components": [
+    {
+      "name": "agent-general",
+      "type": "ocx:agent",
+      "description": "Local export for agents/general.md"
+    },
+    {
+      "name": "agent-implementor",
+      "type": "ocx:agent",
+      "description": "Local export for agents/implementor.md"
+    },
+    {
+      "name": "agent-orchestrator",
+      "type": "ocx:agent",
+      "description": "Local export for agents/orchestrator.md"
+    },
+    {
+      "name": "agent-researcher",
+      "type": "ocx:agent",
+      "description": "Local export for agents/researcher.md"
+    },
+    {
+      "name": "agent-review-coordinator",
+      "type": "ocx:agent",
+      "description": "Local export for agents/review-coordinator.md"
+    },
+    {
+      "name": "agent-reviewer-design-devil",
+      "type": "ocx:agent",
+      "description": "Local export for agents/reviewer-design-devil.md"
+    },
+    {
+      "name": "agent-reviewer-design-normal",
+      "type": "ocx:agent",
+      "description": "Local export for agents/reviewer-design-normal.md"
+    },
+    {
+      "name": "agent-reviewer-devil",
+      "type": "ocx:agent",
+      "description": "Local export for agents/reviewer-devil.md"
+    },
+    {
+      "name": "agent-reviewer-normal",
+      "type": "ocx:agent",
+      "description": "Local export for agents/reviewer-normal.md"
+    },
+    {
+      "name": "agent-testor",
+      "type": "ocx:agent",
+      "description": "Local export for agents/testor.md"
+    },
+    {
+      "name": "command-coolify-verify",
+      "type": "ocx:command",
+      "description": "Local export for command/coolify-verify.md"
+    },
+    {
+      "name": "command-slack-post",
+      "type": "ocx:command",
+      "description": "Local export for command/slack-post.md"
+    },
+    {
+      "name": "command-slack",
+      "type": "ocx:command",
+      "description": "Local export for command/slack.md"
+    },
+    {
+      "name": "command-review",
+      "type": "ocx:command",
+      "description": "Local export for commands/review.md"
+    },
+    {
+      "name": "command-summarize",
+      "type": "ocx:command",
+      "description": "Local export for commands/summarize.md"
+    },
+    {
+      "name": "command-test",
+      "type": "ocx:command",
+      "description": "Local export for commands/test.md"
+    },
+    {
+      "name": "plugin-slack-webhook",
+      "type": "ocx:plugin",
+      "description": "Local export for plugin/slack-webhook.js"
+    },
+    {
+      "name": "skill-final-gate-audit",
+      "type": "ocx:skill",
+      "description": "Local export for skills/final-gate-audit/SKILL.md"
+    },
+    {
+      "name": "skill-handoff-format",
+      "type": "ocx:skill",
+      "description": "Local export for skills/handoff-format/SKILL.md"
+    },
+    {
+      "name": "skill-history-log",
+      "type": "ocx:skill",
+      "description": "Local export for skills/history-log/SKILL.md"
+    },
+    {
+      "name": "skill-review-merge-rules",
+      "type": "ocx:skill",
+      "description": "Local export for skills/review-merge-rules/SKILL.md"
+    },
+    {
+      "name": "skill-session-analysis",
+      "type": "ocx:skill",
+      "description": "Local export for skills/session-analysis/SKILL.md"
+    },
+    {
+      "name": "tool-loop-state",
+      "type": "ocx:tool",
+      "description": "Local export for tools/loop-state.ts"
+    },
+    {
+      "name": "tool-save-handoff",
+      "type": "ocx:tool",
+      "description": "Local export for tools/save-handoff.ts"
+    },
+    {
+      "name": "tool-write-history-log",
+      "type": "ocx:tool",
+      "description": "Local export for tools/write-history-log.ts"
+    }
+  ]
+}
