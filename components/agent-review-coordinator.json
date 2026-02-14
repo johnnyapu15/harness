@@ -1,7 +1,7 @@
 {
   "name": "agent-review-coordinator",
   "versions": {
-    "0.1.0": {
+    "0.1.1": {
       "name": "agent-review-coordinator",
       "type": "ocx:agent",
       "description": "Runs parallel reviews and merges reviewer verdicts into final blockers.",
@@ -15,6 +15,6 @@
     }
   },
   "dist-tags": {
-    "latest": "0.1.0"
+    "latest": "0.1.1"
   }
 }

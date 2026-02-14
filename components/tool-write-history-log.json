@@ -1,7 +1,7 @@
 {
   "name": "tool-write-history-log",
   "versions": {
-    "0.1.0": {
+    "0.1.1": {
       "name": "tool-write-history-log",
       "type": "ocx:tool",
       "description": "Appends normalized session entries to the harness history log.",
@@ -15,6 +15,6 @@
     }
   },
   "dist-tags": {
-    "latest": "0.1.0"
+    "latest": "0.1.1"
   }
 }

@@ -1,8 +1,8 @@
 {
-  "name": "OpenCode Local Registry Export",
-  "namespace": "kdcokenny-opencode",
-  "version": "0.1.0",
-  "author": "local",
+  "name": "johnnyapu15 harness registry",
+  "namespace": "johnnyapu15-harness",
+  "version": "0.1.1",
+  "author": "johnnyapu15",
   "components": [
     {
       "name": "agent-general",
