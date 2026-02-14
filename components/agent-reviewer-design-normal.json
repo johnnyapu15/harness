@@ -1,7 +1,7 @@
 {
   "name": "agent-reviewer-design-normal",
   "versions": {
-    "0.1.1": {
+    "0.1.2": {
       "name": "agent-reviewer-design-normal",
       "type": "ocx:agent",
       "description": "Reviews design quality, usability, and consistency against requirements.",
@@ -15,6 +15,6 @@
     }
   },
   "dist-tags": {
-    "latest": "0.1.1"
+    "latest": "0.1.2"
   }
 }

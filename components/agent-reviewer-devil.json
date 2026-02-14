@@ -1,7 +1,7 @@
 {
   "name": "agent-reviewer-devil",
   "versions": {
-    "0.1.1": {
+    "0.1.2": {
       "name": "agent-reviewer-devil",
       "type": "ocx:agent",
       "description": "Performs adversarial code review focused on risks and edge-case failures.",
@@ -15,6 +15,6 @@
     }
   },
   "dist-tags": {
-    "latest": "0.1.1"
+    "latest": "0.1.2"
   }
 }

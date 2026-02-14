@@ -1,7 +1,7 @@
 {
   "name": "command-slack",
   "versions": {
-    "0.1.1": {
+    "0.1.2": {
       "name": "command-slack",
       "type": "ocx:command",
       "description": "Guides Slack notification workflows and webhook-based messaging tasks.",
@@ -15,6 +15,6 @@
     }
   },
   "dist-tags": {
-    "latest": "0.1.1"
+    "latest": "0.1.2"
   }
 }

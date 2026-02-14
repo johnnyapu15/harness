@@ -39,7 +39,10 @@ ocx registry add https://johnnyapu15.github.io/harness --name harness
 | `SLACK_BOT_TOKEN` | Slack bot-token workflows in local integrations | Authenticates Slack Web API calls. | Required only for bot-token flows. |
 | `COOLIFY_TOKEN` | `command-coolify-verify` | Authenticates requests to the Coolify API. | Required for Coolify verification flows. |
 | `COOLIFY_BASE_URL` | `command-coolify-verify` | Defines the Coolify API base URL. | Required for Coolify verification flows. |
+| `OPENCODE_ENABLE_EXA` | `agent-researcher` (`websearch`, `codesearch`) | Enables Exa-backed search tools when runtime flags gate them. | Required where provider settings do not already enable Exa tools. |
 | `HOME` | Runtime path resolution | Resolves local target paths under the user home directory. | Usually provided by the OS environment. |
+
+Note: `websearch` and `codesearch` are available only when Exa tools are enabled (for example, `OPENCODE_ENABLE_EXA=true`), unless the active provider path already enables them.
 
 Resolution rules:
 

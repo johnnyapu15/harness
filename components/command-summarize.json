@@ -1,7 +1,7 @@
 {
   "name": "command-summarize",
   "versions": {
-    "0.1.1": {
+    "0.1.2": {
       "name": "command-summarize",
       "type": "ocx:command",
       "description": "Generates concise summaries of repository changes and session outcomes.",
@@ -15,6 +15,6 @@
     }
   },
   "dist-tags": {
-    "latest": "0.1.1"
+    "latest": "0.1.2"
   }
 }
