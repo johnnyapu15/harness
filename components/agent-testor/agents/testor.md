@@ -12,19 +12,36 @@ permission:
   list: allow
   bash:
     "*": deny
-    "git status -sb": allow
-    "git diff": allow
-    "git diff --staged": allow
+    "git status*": allow
+    "git diff*": allow
     "git show *": allow
+    "git log*": allow
+    "git rev-parse*": allow
+    "git branch*": allow
+    "git remote -v": allow
+    "git ls-remote*": allow
     "npm test*": allow
+    "npm run test*": allow
+    "npm run lint*": allow
+    "npm run build*": allow
     "pnpm test*": allow
+    "pnpm run test*": allow
+    "pnpm run lint*": allow
+    "pnpm run build*": allow
     "yarn test*": allow
+    "yarn run test*": allow
+    "yarn lint*": allow
+    "yarn build*": allow
     "bun test*": allow
+    "bun run test*": allow
+    "bun run lint*": allow
+    "bun run build*": allow
     "pytest*": allow
     "go test*": allow
     "cargo test*": allow
     "make test*": allow
-    "make test": allow
+    "make lint*": allow
+    "make build*": allow
   webfetch: deny
   save-handoff: allow
   external_directory:
