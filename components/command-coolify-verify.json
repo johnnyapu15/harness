@@ -4,7 +4,7 @@
     "0.1.0": {
       "name": "command-coolify-verify",
       "type": "ocx:command",
-      "description": "Local export for command/coolify-verify.md",
+      "description": "Runs Coolify deployment verification checks for target applications.",
       "files": [
         {
           "path": "command/coolify-verify.md",

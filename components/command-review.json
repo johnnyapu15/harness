@@ -4,7 +4,7 @@
     "0.1.0": {
       "name": "command-review",
       "type": "ocx:command",
-      "description": "Local export for commands/review.md",
+      "description": "Invokes coordinated multi-review workflows for implementation changes.",
       "files": [
         {
           "path": "commands/review.md",

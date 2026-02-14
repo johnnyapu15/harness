@@ -4,7 +4,7 @@
     "0.1.0": {
       "name": "tool-write-history-log",
       "type": "ocx:tool",
-      "description": "Local export for tools/write-history-log.ts",
+      "description": "Appends normalized session entries to the harness history log.",
       "files": [
         {
           "path": "tools/write-history-log.ts",

@@ -4,7 +4,7 @@
     "0.1.0": {
       "name": "command-slack-post",
       "type": "ocx:command",
-      "description": "Local export for command/slack-post.md",
+      "description": "Posts formatted status messages to Slack via the local helper script.",
       "files": [
         {
           "path": "command/slack-post.md",

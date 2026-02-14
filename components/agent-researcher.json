@@ -4,7 +4,7 @@
     "0.1.0": {
       "name": "agent-researcher",
       "type": "ocx:agent",
-      "description": "Local export for agents/researcher.md",
+      "description": "Performs targeted web and repository research to gather supporting evidence.",
       "files": [
         {
           "path": "agents/researcher.md",

@@ -4,7 +4,7 @@
     "0.1.0": {
       "name": "agent-reviewer-design-normal",
       "type": "ocx:agent",
-      "description": "Local export for agents/reviewer-design-normal.md",
+      "description": "Reviews design quality, usability, and consistency against requirements.",
       "files": [
         {
           "path": "agents/reviewer-design-normal.md",

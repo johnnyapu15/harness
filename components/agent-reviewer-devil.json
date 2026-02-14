@@ -4,7 +4,7 @@
     "0.1.0": {
       "name": "agent-reviewer-devil",
       "type": "ocx:agent",
-      "description": "Local export for agents/reviewer-devil.md",
+      "description": "Performs adversarial code review focused on risks and edge-case failures.",
       "files": [
         {
           "path": "agents/reviewer-devil.md",

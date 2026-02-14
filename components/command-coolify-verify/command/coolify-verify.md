@@ -27,7 +27,7 @@ If COOLIFY_TOKEN is missing, ask the user to set it. Do not proceed without it.
 Then, use the Bash tool to run:
 
 ```bash
-python3 /home/ubuntu/.config/opencode/coolify-verify.py $ARGUMENTS
+python3 "$HOME/.config/opencode/coolify-verify.py" $ARGUMENTS
 ```
 
 After running, return a concise summary and include the JSON in a fenced `json` block.

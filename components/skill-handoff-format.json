@@ -4,7 +4,7 @@
     "0.1.0": {
       "name": "skill-handoff-format",
       "type": "ocx:skill",
-      "description": "Local export for skills/handoff-format/SKILL.md",
+      "description": "Standardizes task brief, checkpoint, and completion handoff formats.",
       "files": [
         {
           "path": "skills/handoff-format/SKILL.md",

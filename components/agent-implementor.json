@@ -4,7 +4,7 @@
     "0.1.0": {
       "name": "agent-implementor",
       "type": "ocx:agent",
-      "description": "Local export for agents/implementor.md",
+      "description": "Implements scoped code changes and reports checkpoint/completion artifacts.",
       "files": [
         {
           "path": "agents/implementor.md",

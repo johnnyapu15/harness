@@ -7,127 +7,127 @@
     {
       "name": "agent-general",
       "type": "ocx:agent",
-      "description": "Local export for agents/general.md"
+      "description": "Provides shared operating rules for all OpenCode agents."
     },
     {
       "name": "agent-implementor",
       "type": "ocx:agent",
-      "description": "Local export for agents/implementor.md"
+      "description": "Implements scoped code changes and reports checkpoint/completion artifacts."
     },
     {
       "name": "agent-orchestrator",
       "type": "ocx:agent",
-      "description": "Local export for agents/orchestrator.md"
+      "description": "Coordinates task cycles, gates, and handoffs across specialist agents."
     },
     {
       "name": "agent-researcher",
       "type": "ocx:agent",
-      "description": "Local export for agents/researcher.md"
+      "description": "Performs targeted web and repository research to gather supporting evidence."
     },
     {
       "name": "agent-review-coordinator",
       "type": "ocx:agent",
-      "description": "Local export for agents/review-coordinator.md"
+      "description": "Runs parallel reviews and merges reviewer verdicts into final blockers."
     },
     {
       "name": "agent-reviewer-design-devil",
       "type": "ocx:agent",
-      "description": "Local export for agents/reviewer-design-devil.md"
+      "description": "Critically reviews UX and design decisions to expose weaknesses."
     },
     {
       "name": "agent-reviewer-design-normal",
       "type": "ocx:agent",
-      "description": "Local export for agents/reviewer-design-normal.md"
+      "description": "Reviews design quality, usability, and consistency against requirements."
     },
     {
       "name": "agent-reviewer-devil",
       "type": "ocx:agent",
-      "description": "Local export for agents/reviewer-devil.md"
+      "description": "Performs adversarial code review focused on risks and edge-case failures."
     },
     {
       "name": "agent-reviewer-normal",
       "type": "ocx:agent",
-      "description": "Local export for agents/reviewer-normal.md"
+      "description": "Performs standard code review for correctness and maintainability."
     },
     {
       "name": "agent-testor",
       "type": "ocx:agent",
-      "description": "Local export for agents/testor.md"
+      "description": "Executes tests and reports reproducible quality evidence."
     },
     {
       "name": "command-coolify-verify",
       "type": "ocx:command",
-      "description": "Local export for command/coolify-verify.md"
+      "description": "Runs Coolify deployment verification checks for target applications."
     },
     {
       "name": "command-slack-post",
       "type": "ocx:command",
-      "description": "Local export for command/slack-post.md"
+      "description": "Posts formatted status messages to Slack via the local helper script."
     },
     {
       "name": "command-slack",
       "type": "ocx:command",
-      "description": "Local export for command/slack.md"
+      "description": "Guides Slack notification workflows and webhook-based messaging tasks."
     },
     {
       "name": "command-review",
       "type": "ocx:command",
-      "description": "Local export for commands/review.md"
+      "description": "Invokes coordinated multi-review workflows for implementation changes."
     },
     {
       "name": "command-summarize",
       "type": "ocx:command",
-      "description": "Local export for commands/summarize.md"
+      "description": "Generates concise summaries of repository changes and session outcomes."
     },
     {
       "name": "command-test",
       "type": "ocx:command",
-      "description": "Local export for commands/test.md"
+      "description": "Runs project test workflows and reports failures with context."
     },
     {
       "name": "plugin-slack-webhook",
       "type": "ocx:plugin",
-      "description": "Local export for plugin/slack-webhook.js"
+      "description": "Provides Slack incoming webhook integration for OpenCode notifications."
     },
     {
       "name": "skill-final-gate-audit",
       "type": "ocx:skill",
-      "description": "Local export for skills/final-gate-audit/SKILL.md"
+      "description": "Defines final-gate audit checks for acceptance coverage and scope control."
     },
     {
       "name": "skill-handoff-format",
       "type": "ocx:skill",
-      "description": "Local export for skills/handoff-format/SKILL.md"
+      "description": "Standardizes task brief, checkpoint, and completion handoff formats."
     },
     {
       "name": "skill-history-log",
       "type": "ocx:skill",
-      "description": "Local export for skills/history-log/SKILL.md"
+      "description": "Defines one-line session history logging rules and schema."
     },
     {
       "name": "skill-review-merge-rules",
       "type": "ocx:skill",
-      "description": "Local export for skills/review-merge-rules/SKILL.md"
+      "description": "Specifies blocker and merge rules for combining review verdicts."
     },
     {
       "name": "skill-session-analysis",
       "type": "ocx:skill",
-      "description": "Local export for skills/session-analysis/SKILL.md"
+      "description": "Analyzes OpenCode session timelines, interventions, and durations."
     },
     {
       "name": "tool-loop-state",
       "type": "ocx:tool",
-      "description": "Local export for tools/loop-state.ts"
+      "description": "Tracks iterative loop state, gate verdicts, and cycle outcomes."
     },
     {
       "name": "tool-save-handoff",
       "type": "ocx:tool",
-      "description": "Local export for tools/save-handoff.ts"
+      "description": "Persists checkpoint and completion artifacts to harness handoff storage."
     },
     {
       "name": "tool-write-history-log",
       "type": "ocx:tool",
-      "description": "Local export for tools/write-history-log.ts"
+      "description": "Appends normalized session entries to the harness history log."
     }
   ]
 }

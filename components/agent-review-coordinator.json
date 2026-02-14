@@ -4,7 +4,7 @@
     "0.1.0": {
       "name": "agent-review-coordinator",
       "type": "ocx:agent",
-      "description": "Local export for agents/review-coordinator.md",
+      "description": "Runs parallel reviews and merges reviewer verdicts into final blockers.",
       "files": [
         {
           "path": "agents/review-coordinator.md",

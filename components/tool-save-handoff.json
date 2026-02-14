@@ -4,7 +4,7 @@
     "0.1.0": {
       "name": "tool-save-handoff",
       "type": "ocx:tool",
-      "description": "Local export for tools/save-handoff.ts",
+      "description": "Persists checkpoint and completion artifacts to harness handoff storage.",
       "files": [
         {
           "path": "tools/save-handoff.ts",

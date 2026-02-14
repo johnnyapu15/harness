@@ -4,7 +4,7 @@
     "0.1.0": {
       "name": "command-summarize",
       "type": "ocx:command",
-      "description": "Local export for commands/summarize.md",
+      "description": "Generates concise summaries of repository changes and session outcomes.",
       "files": [
         {
           "path": "commands/summarize.md",

@@ -4,7 +4,7 @@
     "0.1.0": {
       "name": "agent-testor",
       "type": "ocx:agent",
-      "description": "Local export for agents/testor.md",
+      "description": "Executes tests and reports reproducible quality evidence.",
       "files": [
         {
           "path": "agents/testor.md",

@@ -4,7 +4,7 @@
     "0.1.0": {
       "name": "tool-loop-state",
       "type": "ocx:tool",
-      "description": "Local export for tools/loop-state.ts",
+      "description": "Tracks iterative loop state, gate verdicts, and cycle outcomes.",
       "files": [
         {
           "path": "tools/loop-state.ts",

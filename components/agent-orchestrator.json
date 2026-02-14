@@ -4,7 +4,7 @@
     "0.1.0": {
       "name": "agent-orchestrator",
       "type": "ocx:agent",
-      "description": "Local export for agents/orchestrator.md",
+      "description": "Coordinates task cycles, gates, and handoffs across specialist agents.",
       "files": [
         {
           "path": "agents/orchestrator.md",

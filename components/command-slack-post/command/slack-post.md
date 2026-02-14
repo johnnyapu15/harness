@@ -25,7 +25,7 @@ If neither SLACK_BOT_TOKEN nor SLACK_WEBHOOK_URL is set, ask the user to provide
 Then run:
 
 ```bash
-python3 /home/ubuntu/.config/opencode/slack-post.py $ARGUMENTS
+python3 "$HOME/.config/opencode/slack-post.py" $ARGUMENTS
 ```
 
 Return a concise summary and include the command output in a fenced `json` block.

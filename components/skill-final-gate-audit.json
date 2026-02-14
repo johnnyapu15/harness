@@ -4,7 +4,7 @@
     "0.1.0": {
       "name": "skill-final-gate-audit",
       "type": "ocx:skill",
-      "description": "Local export for skills/final-gate-audit/SKILL.md",
+      "description": "Defines final-gate audit checks for acceptance coverage and scope control.",
       "files": [
         {
           "path": "skills/final-gate-audit/SKILL.md",

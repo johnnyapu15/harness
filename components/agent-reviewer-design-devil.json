@@ -4,7 +4,7 @@
     "0.1.0": {
       "name": "agent-reviewer-design-devil",
       "type": "ocx:agent",
-      "description": "Local export for agents/reviewer-design-devil.md",
+      "description": "Critically reviews UX and design decisions to expose weaknesses.",
       "files": [
         {
           "path": "agents/reviewer-design-devil.md",

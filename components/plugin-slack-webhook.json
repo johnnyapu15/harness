@@ -4,7 +4,7 @@
     "0.1.0": {
       "name": "plugin-slack-webhook",
       "type": "ocx:plugin",
-      "description": "Local export for plugin/slack-webhook.js",
+      "description": "Provides Slack incoming webhook integration for OpenCode notifications.",
       "files": [
         {
           "path": "plugin/slack-webhook.js",

@@ -4,7 +4,7 @@
     "0.1.0": {
       "name": "command-slack",
       "type": "ocx:command",
-      "description": "Local export for command/slack.md",
+      "description": "Guides Slack notification workflows and webhook-based messaging tasks.",
       "files": [
         {
           "path": "command/slack.md",

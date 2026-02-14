@@ -4,7 +4,7 @@
     "0.1.0": {
       "name": "skill-history-log",
       "type": "ocx:skill",
-      "description": "Local export for skills/history-log/SKILL.md",
+      "description": "Defines one-line session history logging rules and schema.",
       "files": [
         {
           "path": "skills/history-log/SKILL.md",

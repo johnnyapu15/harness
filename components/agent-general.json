@@ -4,7 +4,7 @@
     "0.1.0": {
       "name": "agent-general",
       "type": "ocx:agent",
-      "description": "Local export for agents/general.md",
+      "description": "Provides shared operating rules for all OpenCode agents.",
       "files": [
         {
           "path": "agents/general.md",

@@ -4,7 +4,7 @@
     "0.1.0": {
       "name": "skill-review-merge-rules",
       "type": "ocx:skill",
-      "description": "Local export for skills/review-merge-rules/SKILL.md",
+      "description": "Specifies blocker and merge rules for combining review verdicts.",
       "files": [
         {
           "path": "skills/review-merge-rules/SKILL.md",

@@ -4,7 +4,7 @@
     "0.1.0": {
       "name": "skill-session-analysis",
       "type": "ocx:skill",
-      "description": "Local export for skills/session-analysis/SKILL.md",
+      "description": "Analyzes OpenCode session timelines, interventions, and durations.",
       "files": [
         {
           "path": "skills/session-analysis/SKILL.md",
