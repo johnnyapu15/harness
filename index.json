@@ -1,13 +1,18 @@
 {
   "name": "johnnyapu15 harness registry",
   "namespace": "johnnyapu15-harness",
-  "version": "0.1.3",
+  "version": "0.1.5",
   "author": "johnnyapu15",
   "components": [
     {
       "name": "agent-general",
       "type": "ocx:agent",
       "description": "Provides shared operating rules for all OpenCode agents."
+    },
+    {
+      "name": "agent-designer",
+      "type": "ocx:agent",
+      "description": "Designs UX/UI and implements frontend experience changes."
     },
     {
       "name": "agent-implementor",

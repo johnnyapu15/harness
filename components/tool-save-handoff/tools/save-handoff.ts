@@ -6,6 +6,7 @@ import { tool } from "@opencode-ai/plugin"
 const ALLOWED_AGENTS = new Set([
   "orchestrator",
   "general",
+  "designer",
   "implementor",
   "review-coordinator",
   "testor",

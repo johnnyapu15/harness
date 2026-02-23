@@ -1,0 +1,20 @@
+{
+  "name": "agent-designer",
+  "versions": {
+    "0.1.5": {
+      "name": "agent-designer",
+      "type": "ocx:agent",
+      "description": "Designs UX/UI and implements frontend experience changes.",
+      "files": [
+        {
+          "path": "agents/designer.md",
+          "target": ".opencode/agent/designer.md"
+        }
+      ],
+      "dependencies": []
+    }
+  },
+  "dist-tags": {
+    "latest": "0.1.5"
+  }
+}
