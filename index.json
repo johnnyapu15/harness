@@ -1,7 +1,7 @@
 {
   "name": "johnnyapu15 harness registry",
   "namespace": "johnnyapu15-harness",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "author": "johnnyapu15",
   "components": [
     {

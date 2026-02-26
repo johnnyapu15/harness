@@ -1,7 +1,7 @@
 {
   "name": "command-slack-post",
   "versions": {
-    "0.1.6": {
+    "0.1.7": {
       "name": "command-slack-post",
       "type": "ocx:command",
       "description": "Posts formatted status messages to Slack via the local helper script.",
@@ -9,12 +9,16 @@
         {
           "path": "command/slack-post.md",
           "target": ".opencode/command/slack-post.md"
+        },
+        {
+          "path": "slack-post.py",
+          "target": ".opencode/command/slack-post.py"
         }
       ],
       "dependencies": []
     }
   },
   "dist-tags": {
-    "latest": "0.1.6"
+    "latest": "0.1.7"
   }
 }

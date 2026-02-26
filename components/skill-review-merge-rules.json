@@ -1,7 +1,7 @@
 {
   "name": "skill-review-merge-rules",
   "versions": {
-    "0.1.6": {
+    "0.1.7": {
       "name": "skill-review-merge-rules",
       "type": "ocx:skill",
       "description": "Specifies blocker and merge rules for combining review verdicts.",
@@ -15,6 +15,6 @@
     }
   },
   "dist-tags": {
-    "latest": "0.1.6"
+    "latest": "0.1.7"
   }
 }

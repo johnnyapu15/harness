@@ -38,7 +38,7 @@ Behavior
 Then run:
 
 ```bash
-python3 "$HOME/.config/opencode/slack-post.py" $ARGUMENTS
+python3 "${OPENCODE_CONFIG_DIR:-$HOME/.config/opencode}/command/slack-post.py" $ARGUMENTS
 ```
 
 Return a concise summary and include command output in a fenced `json` block.
