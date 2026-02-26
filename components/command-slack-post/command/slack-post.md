@@ -32,6 +32,7 @@ Environment
 Behavior
 - Bot token is preferred when available.
 - If bot token is missing, falls back to webhook.
+- If both bot token and webhook are missing, skip quietly and return a skipped JSON result.
 - If custom blocks are used, include fallback text (`--text` or `--summary`).
 
 Then run:

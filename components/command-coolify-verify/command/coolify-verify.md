@@ -22,7 +22,7 @@ Environment
 - COOLIFY_TOKEN is required (Bearer token)
 - COOLIFY_BASE_URL optional (default: https://infra.curatesome.com/api/v1)
 
-If COOLIFY_TOKEN is missing, ask the user to set it. Do not proceed without it.
+If COOLIFY_TOKEN is missing, skip quietly and return a skipped JSON result.
 
 Then, use the Bash tool to run:
 
