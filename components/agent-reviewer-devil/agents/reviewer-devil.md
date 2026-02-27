@@ -12,10 +12,14 @@ permission:
   list: allow
   bash:
     "*": deny
-    "git status -sb": allow
-    "git diff": allow
-    "git diff --staged": allow
+    "git status*": allow
+    "git diff*": allow
     "git show *": allow
+    "git log*": allow
+    "git rev-parse*": allow
+    "git branch*": allow
+    "git remote -v": allow
+    "git ls-remote*": allow
   webfetch: deny
   external_directory:
     "*": allow
@@ -32,7 +36,10 @@ Focus:
 Rules:
 - Read-only. Run only the allowed git commands.
 - Use the provided context and minimal file reads.
+- Apply principal-level review rigor.
 - Blocker definition: correctness regression, data loss, security issue, crash, or failing required test.
+- Every blocker must include Evidence, Impact, and Alternative.
+- If any of the three is missing, classify the item as `needs confirmation` in Non-blockers instead of Blockers.
 - Read the Task Brief from the provided file path. If the path is missing, return Review Verdict with Verdict: fail and Blockers listing missing inputs.
 - If review-only, proceed with Task Brief and review context even if Completion is missing.
 - If repository path is not provided, request it before running git commands.

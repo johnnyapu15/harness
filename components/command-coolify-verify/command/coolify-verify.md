@@ -22,12 +22,12 @@ Environment
 - COOLIFY_TOKEN is required (Bearer token)
 - COOLIFY_BASE_URL optional (default: https://infra.curatesome.com/api/v1)
 
-If COOLIFY_TOKEN is missing, skip quietly and return a skipped JSON result.
+If COOLIFY_TOKEN is missing, ask the user to set it. Do not proceed without it.
 
 Then, use the Bash tool to run:
 
 ```bash
-python3 "$HOME/.config/opencode/coolify-verify.py" $ARGUMENTS
+python3 /home/ubuntu/.config/opencode/coolify-verify.py $ARGUMENTS
 ```
 
 After running, return a concise summary and include the JSON in a fenced `json` block.

@@ -20,12 +20,14 @@ description: Standard handoff formats for Task Brief, Checkpoint, Completion, an
 ## Formats
 
 Task Brief
-- Task Type: change | review | design
+- Task Type: change | review | design | program
 - Goal
 - Scope
 - Out of Scope
 - Context (files/areas)
 - Constraints
+- Approval: pending | granted (for program/PM workflows)
+  - For PM/program workflows, capture user approval once at program start and propagate `granted` to downstream stream Task Briefs.
 - Proposed Design (required for design type; recommended for large changes)
 - Acceptance Criteria
 - Risks/Assumptions
@@ -43,6 +45,7 @@ Checkpoint
 Completion
 - Summary
 - Files Touched
+- Tests Written/Updated
 - Tests Run (results)
 - Behavior Changes
 - Risks/Tradeoffs
@@ -57,8 +60,13 @@ Review Verdict
 Test Verdict
 - Verdict: pass | fail | partial
 - Evidence (commands/results)
+- Coverage (changed files)
 - Failures (if any)
 - Env/Scope
+
+## Blocker quality contract (review verdicts)
+- Each blocker entry must include `Evidence`, `Impact`, and `Alternative`.
+- If any of the three is missing, place the item under Non-blockers as `needs confirmation`.
 
 ## When to use me
 Use these formats for every handoff. Do not add prose outside the format.

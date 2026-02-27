@@ -4,6 +4,7 @@ import path from "node:path"
 import { tool } from "@opencode-ai/plugin"
 
 const ALLOWED_AGENTS = new Set([
+  "program-manager",
   "orchestrator",
   "general",
   "designer",

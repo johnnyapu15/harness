@@ -6,9 +6,11 @@ description: Merge rules and blocker definition for review coordination
 - Define how parallel review results are merged into a single verdict.
 
 ## Rules
-- Any blocker -> fail
+- Any valid blocker -> fail
 - No blockers -> pass
 - Conflicting assessments -> mark "needs confirmation" in Non-blockers
+- A blocker is valid only if it includes `Evidence`, `Impact`, and `Alternative`.
+- If any of the three is missing, classify the item as "needs confirmation" in Non-blockers (not a blocker).
 - In looped execution, this fail/pass is cycle-level. Final task fail/pass is decided by the loop owner after loop-state evaluation.
 
 ## Mode and cycle contract

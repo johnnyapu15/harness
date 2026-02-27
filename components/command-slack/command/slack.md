@@ -9,7 +9,6 @@ Send a Slack message from "$ARGUMENTS" using the `slack_notify` tool.
 Rules
 - Prefer bot token delivery with `SLACK_BOT_TOKEN` plus `SLACK_CHANNEL_ID` (or `SLACK_CHANNEL`).
 - Fall back to `SLACK_WEBHOOK_URL` only when bot-token delivery is unavailable.
-- If neither destination is configured, skip quietly and return a skipped result.
 - Always provide fallback `message` text even when using `blocks`.
 - Prefer structured fields for consistency:
   - `kind`: `permission | milestone | error | final | info`

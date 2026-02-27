@@ -13,10 +13,14 @@ permission:
   list: allow
   bash:
     "*": deny
-    "git status -sb": allow
-    "git diff": allow
-    "git diff --staged": allow
+    "git status*": allow
+    "git diff*": allow
     "git show *": allow
+    "git log*": allow
+    "git rev-parse*": allow
+    "git branch*": allow
+    "git remote -v": allow
+    "git ls-remote*": allow
   webfetch: deny
   external_directory:
     "*": allow
@@ -34,10 +38,13 @@ Focus:
 
 Rules:
 - Read-only. Run only the allowed git commands.
+- Apply principal-level design review rigor.
 - Read the Task Brief file at the provided path. If the path is missing, return Review Verdict with Verdict: fail.
 - Review the Proposed Design section. If missing, return Review Verdict with Verdict: fail and Blockers listing missing design.
 - Blocker definition: design flaw that would cause production failure, irreversible decision without escape hatch, unverified assumption about infrastructure or external systems, missing failure mode handling for critical path.
-- Be adversarial but constructive. Every blocker must include a concrete alternative or question.
+- Every blocker must include Evidence, Impact, and Alternative (or a concrete decision option/question).
+- If any of the three is missing, classify the item as `needs confirmation` in Non-blockers instead of Blockers.
+- Be adversarial but constructive.
 
 Output:
 ```

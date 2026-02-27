@@ -545,7 +545,7 @@ export const SlackWebhookPlugin = async ({ client }) => {
             username: args.username,
             channel: args.channel,
             threadTs: args.thread_ts,
-            requireDelivery: false,
+            requireDelivery: true,
           });
         },
       }),

@@ -32,13 +32,12 @@ Environment
 Behavior
 - Bot token is preferred when available.
 - If bot token is missing, falls back to webhook.
-- If both bot token and webhook are missing, skip quietly and return a skipped JSON result.
 - If custom blocks are used, include fallback text (`--text` or `--summary`).
 
 Then run:
 
 ```bash
-python3 "${OPENCODE_CONFIG_DIR:-$HOME/.config/opencode}/command/slack-post.py" $ARGUMENTS
+python3 "$HOME/.config/opencode/slack-post.py" $ARGUMENTS
 ```
 
 Return a concise summary and include command output in a fenced `json` block.
