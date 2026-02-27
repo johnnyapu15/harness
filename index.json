@@ -25,6 +25,11 @@
       "description": "Coordinates task cycles, gates, and handoffs across specialist agents."
     },
     {
+      "name": "agent-program-manager",
+      "type": "ocx:agent",
+      "description": "Plans large work, runs approval gates, and coordinates orchestrator streams."
+    },
+    {
       "name": "agent-researcher",
       "type": "ocx:agent",
       "description": "Performs targeted web and repository research to gather supporting evidence."

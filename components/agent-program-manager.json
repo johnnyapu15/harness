@@ -1,0 +1,20 @@
+{
+  "name": "agent-program-manager",
+  "versions": {
+    "0.1.7": {
+      "name": "agent-program-manager",
+      "type": "ocx:agent",
+      "description": "Plans large work, runs approval gates, and coordinates orchestrator streams.",
+      "files": [
+        {
+          "path": "agents/program-manager.md",
+          "target": ".opencode/agent/program-manager.md"
+        }
+      ],
+      "dependencies": []
+    }
+  },
+  "dist-tags": {
+    "latest": "0.1.7"
+  }
+}
