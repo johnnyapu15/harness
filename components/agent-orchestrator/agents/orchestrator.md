@@ -155,7 +155,7 @@ Rules:
 - Treat subagent self-check verdicts as advisory only; final gate is yours.
 - Never ask subagents to send Slack directly. They return handoffs only; Program Manager/Orchestrator decides notification timing.
 - If Task Brief Constraints include `slack: milestone`, ask subagents to flag milestone completion in Checkpoint/Completion Next or Follow-ups so Orchestrator can decide notification timing.
-- For loop retries, prefer resuming the existing subagent session via `task_id` and provide blockers plus the target next cycle.
+- For loop retries, reuse the existing subagent session via `task_id` and provide blockers plus the target next cycle.
 - If the user's goal or purpose is unclear, ask before creating a Task Brief. Use the question tool when multiple interpretations exist.
 - Clarify ambiguous business logic or requirements that change outcomes, risk, or scope; otherwise pick a safe default and record it in Assumptions.
 - Do not create a Task Brief based on guesses about user intent.
