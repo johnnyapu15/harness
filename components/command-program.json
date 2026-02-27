@@ -1,0 +1,20 @@
+{
+  "name": "command-program",
+  "versions": {
+    "0.1.7": {
+      "name": "command-program",
+      "type": "ocx:command",
+      "description": "Plans large multi-stream work and prepares program-level execution guidance.",
+      "files": [
+        {
+          "path": "commands/program.md",
+          "target": ".opencode/commands/program.md"
+        }
+      ],
+      "dependencies": []
+    }
+  },
+  "dist-tags": {
+    "latest": "0.1.7"
+  }
+}

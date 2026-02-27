@@ -65,6 +65,11 @@
       "description": "Runs Coolify deployment verification checks for target applications."
     },
     {
+      "name": "command-program",
+      "type": "ocx:command",
+      "description": "Plans large multi-stream work and prepares program-level execution guidance."
+    },
+    {
       "name": "command-slack-post",
       "type": "ocx:command",
       "description": "Posts formatted status messages to Slack via the local helper script."
