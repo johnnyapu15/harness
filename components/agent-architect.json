@@ -1,0 +1,20 @@
+{
+  "name": "agent-architect",
+  "versions": {
+    "0.1.5": {
+      "name": "agent-architect",
+      "type": "ocx:agent",
+      "description": "Elicits requirements, analyzes codebase, and produces actionable design documents.",
+      "files": [
+        {
+          "path": "agents/architect.md",
+          "target": ".opencode/agent/architect.md"
+        }
+      ],
+      "dependencies": []
+    }
+  },
+  "dist-tags": {
+    "latest": "0.1.5"
+  }
+}

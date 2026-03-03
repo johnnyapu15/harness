@@ -10,6 +10,11 @@
       "description": "Provides shared operating rules for all OpenCode agents."
     },
     {
+      "name": "agent-architect",
+      "type": "ocx:agent",
+      "description": "Elicits requirements, analyzes codebase, and produces actionable design documents."
+    },
+    {
       "name": "agent-designer",
       "type": "ocx:agent",
       "description": "Designs UX/UI and implements frontend experience changes."
@@ -103,6 +108,11 @@
       "name": "plugin-slack-webhook",
       "type": "ocx:plugin",
       "description": "Provides Slack incoming webhook integration for OpenCode notifications."
+    },
+    {
+      "name": "skill-design-document",
+      "type": "ocx:skill",
+      "description": "Standardized design document format for Architect agent output."
     },
     {
       "name": "skill-final-gate-audit",

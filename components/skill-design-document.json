@@ -1,0 +1,20 @@
+{
+  "name": "skill-design-document",
+  "versions": {
+    "0.1.5": {
+      "name": "skill-design-document",
+      "type": "ocx:skill",
+      "description": "Standardized design document format for Architect agent output.",
+      "files": [
+        {
+          "path": "skills/design-document/SKILL.md",
+          "target": ".opencode/skills/design-document/SKILL.md"
+        }
+      ],
+      "dependencies": []
+    }
+  },
+  "dist-tags": {
+    "latest": "0.1.5"
+  }
+}
