@@ -9,9 +9,14 @@ description: Standard format for design documents produced by the Architect agen
 ## Persistence
 - Persist every design document with `save-handoff`.
 - `save-handoff` stores files under `~/logs/opencode-harness/handoffs/<session-id>/`.
-- File naming by `handoffType`:
-  - `design-doc`: `<slug>-design.md`
+- Draft design document:
+  - `handoffType`: `checkpoint`
+  - `slug`: `<slug>-design-draft`
+- Final approved design document:
+  - `handoffType`: `completion`
+  - `slug`: `<slug>-design`
 - Use kebab-case slug derived from the design title.
+- If the caller/user requests a repository output path, also write the same Markdown design document to that path.
 
 ## Format
 
