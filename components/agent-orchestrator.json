@@ -1,7 +1,7 @@
 {
   "name": "agent-orchestrator",
   "versions": {
-    "0.1.7": {
+    "0.1.8": {
       "name": "agent-orchestrator",
       "type": "ocx:agent",
       "description": "Coordinates task cycles, gates, and handoffs across specialist agents.",
@@ -15,6 +15,6 @@
     }
   },
   "dist-tags": {
-    "latest": "0.1.7"
+    "latest": "0.1.8"
   }
 }
